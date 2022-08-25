@@ -98,7 +98,7 @@ h6 {
 }
 
 .bg-gray {
-    background-color: #f1f9fc;
+    background-color: #272727;
 }
 
 .container {
@@ -416,7 +416,7 @@ input[type="checkbox"] {
 
 .navbar {
     position: relative;
-    background-color: #f1f9fc;
+    /* background-color: #f1f9fc; */
     padding: 0.5rem 1rem;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -572,8 +572,8 @@ input[type="checkbox"] {
 /*****************/
 /*    Header     */
 /*****************/
-.header {
-    background: linear-gradient(rgba(197, 234, 249, 1), rgba(255, 255, 255, 1));
+body {
+    background: linear-gradient(#202020, #414141);
 }
 
 /********************/
@@ -834,7 +834,7 @@ input[type="checkbox"] {
 }
 
 .cards-2 .card .btn-solid-reg:hover {
-    background-color: #ffffff;
+    background-color: #464646;
 }
 
 /* Best Value Label */
@@ -865,7 +865,7 @@ input[type="checkbox"] {
 .basic-5 {
     padding-top: 4.5rem;
     padding-bottom: 7.5rem;
-    background: url("../images/conclusion-background.jpg") center center no-repeat;
+    /* background: url("../images/conclusion-background.jpg") center center no-repeat; */
     background-size: cover;
     text-align: center;
 }
@@ -876,7 +876,7 @@ input[type="checkbox"] {
 .footer {
     padding-top: 6rem;
     padding-bottom: 3rem;
-    background: linear-gradient(rgba(255, 255, 255, 1), rgba(197, 234, 249, 1));
+    background: linear-gradient(#202020, #414141);
     text-align: center;
 }
 
@@ -914,7 +914,7 @@ input[type="checkbox"] {
 /*********************/
 .copyright {
     padding-top: 1.5rem;
-    background-color: #c5eaf9;
+    background: linear-gradient(#202020, #1a1a1a);
     text-align: center;
 }
 
@@ -945,7 +945,7 @@ a:hover.back-to-top {
 .ex-header {
     padding-top: 8.5rem;
     padding-bottom: 4rem;
-    background-color: #f1f9fc;
+    background: linear-gradient(#202020, #414141);
 }
 
 .ex-basic-1 .list-unstyled .fas {
@@ -1020,7 +1020,7 @@ a:hover.back-to-top {
     .navbar.top-nav-collapse {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
-        background-color: #f1f9fc;
+        background: linear-gradient(#202020, #132431);
     }
 
     .offcanvas-collapse {
