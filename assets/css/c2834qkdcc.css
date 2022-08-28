@@ -11,32 +11,32 @@
     position:absolute;
     left:50px;
     bottom: 100px!important;
-    width:350px;
+    width:400px;
 }
 
 .flow-right{
     position: absolute;
     right:150px;
     bottom: 50px!important;
-    width:350px;
+    width:400px;
 }
- 
- 
-
+  
 @media only screen and (min-width: 600px) and (max-width: 1200px){
     .flow-left{
         position:absolute;
         left:0;
-        bottom: 350px!important;width:200px;
+        bottom: 350px!important;
+        width:300px;
     }
     
     .flow-right{
         position: absolute;
         right:0;
-        bottom: 150px!important;width:200px;
+        bottom: 150px!important;
+        width:300px;
     }
     .flow-left img, .flow-right img{
-        width:200px;
+        width:300px;
     }
 }
 @media only screen and (max-width: 720px) and (min-width: 100px){
