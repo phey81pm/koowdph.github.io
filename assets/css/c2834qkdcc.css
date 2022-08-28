@@ -1,15 +1,13 @@
-.wd{ 
-    font-size: 70px;
-    color:linear-gradient(#d7fffd,#528b89);
-    text-shadow: 1px 2px 3px rgb(2, 2, 2);
+.page-header{
+    background: linear-gradient(#002929,#0078AA);
+    background-image: url('../../img/bg.png');
+    background-size: cover;
 }
-.wm{ 
-    font-size: 60px;
-    color:#d7fffd;
-    text-shadow: 1px 2px 3px rgb(14, 14, 14);
-}
-.gd{ 
-    font-size: 50px;
-    color:#dae3ff;
-    text-shadow: 1px 2px 3px rgb(0, 0, 0);
-}
+.wd,.wm,.gd{
+    font-family: 'Nunito'!important; 
+    font-weight: 800;
+    /* color:#00B5D1;
+    background: -webkit-linear-gradient(#00FFFF,#0078AA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  */
+} 
