@@ -1,0 +1,15 @@
+.wd{ 
+    font-size: 70px;
+    color:linear-gradient(#d7fffd,#528b89);
+    text-shadow: 1px 2px 3px rgb(2, 2, 2);
+}
+.wm{ 
+    font-size: 60px;
+    color:#d7fffd;
+    text-shadow: 1px 2px 3px rgb(14, 14, 14);
+}
+.gd{ 
+    font-size: 50px;
+    color:#dae3ff;
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+}
