@@ -7,41 +7,87 @@
   <link rel="icon" type="image/png" href="img/favicon.png">
   <title>
     Ko͞owd Freelance Web Developer | Phey Camua
-  </title> 
+  </title>
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+  <!-- Nucleo Icons -->
+  <link href="assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <link href="assets/css/nucleo-svg.css" rel="stylesheet" />
   <!-- CSS Files -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link id="pagestyle" href="assets/css/style.css" rel="stylesheet" />
   <link id="pagestyle" href="assets/css/c2834qkdcc.css" rel="stylesheet" />
 </head>
 
-<body class="bg-gradient-dark"> 
+<body class="bg-gradient-dark">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg position-absolute top-0 z-index-3 w-100 shadow-none my-3 navbar-transparent mt-4">
+    <div class="container">
+      <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 text-white" href="profile.html">
+        <img src="img/logo.png" class="navbar-brand-img" alt="main_logo" width="250px">
+      </a>
+      <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon mt-2">
+          <span class="navbar-toggler-bar bar1"></span>
+          <span class="navbar-toggler-bar bar2"></span>
+          <span class="navbar-toggler-bar bar3"></span>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse " id="navigation">
+        <ul class="navbar-nav mx-auto ms-xl-auto me-xl-5 hidden">
+          <li class="nav-item">
+            <a class="nav-link d-flex align-items-center me-2 active" aria-current="page" href="about.html">
+              <i class="fa fa-chart-pie opacity-6  me-2"></i>
+              About
+            </a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link d-flex align-items-center me-2 active" aria-current="page" href="services.html">
+              <i class="fa fa-chart-pie opacity-6  me-1"></i>
+              Services
+            </a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link d-flex align-items-center me-2 active" aria-current="page" href="portfolio.html">
+              <i class="fa fa-chart-pie opacity-6  me-2"></i>
+              Portfolio
+            </a>
+          </li>  
+        </ul> 
+        <ul class="navbar-nav d-lg-block d-none hidden">
+          <li class="nav-item">
+            <a href="#inquire" class="btn btn-sm btn-round mb-0 me-1 bg-gradient-dark">Let's Explore Together!</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <!-- End Navbar -->
   <main class="main-content  mt-0">
     <section class="min-vh-100 mb-8">
       <div class="page-header align-items-start min-vh-50 pt-5 pb-11 m-3 border-radius-lg" >
         <span class="mask bg-gradient-dark opacity-5"></span>
         <div class="container">
-
           <div class="flow-left">
-            <img src="img/spaceman.png" width="400px"  data-aos="fade-down" data-aos-delay="300">
+            <img src="img/spaceman.png" width="400px">
           </div> 
-
           <div class="row justify-content-center"> 
-            <div class="col-lg-8 text-center">
-              <img src="img/logo.svg" class="navbar-brand-img" alt="main_logo" width="200px"  data-aos="zoom-in-down">
 
-              <h4 class="mt-3 text-white"  data-aos="fade-right" data-aos-delay="300">Hello there!</h4> 
-              <h1 class="text-white" data-aos="fade-left" data-aos-delay="600">Welcome to Ko͞owd</h1> 
-              <h4 class="text-white" data-aos="fade-right" data-aos-delay="900">Freelance Web Developer</h4>  
-              <h4 class="text-white" data-aos="fade-left" data-aos-delay="1200">Graphic Designer • Digital Marketer</h4>  
-              <h3 class="text-white mb-5" data-aos="fade-up" data-aos-delay="1500">Need one? You're in a right place!</h3> 
+            <div class="col-lg-8 text-center">
+              <h4 class="mt-8 text-white">Hello there!</h4> 
+              <h1 class="text-white">Welcome to Ko͞owd</h1> 
+              <h4 class="text-white">Freelance Web Developer</h4>  
+              <h4 class="text-white">Graphic Designer • Digital Marketer</h4>  
+              <h3 class="text-white mb-5">Need one? You're in a right place!</h3> 
               <div>
-                <a href="#inquire" class="btn btn-dark"  data-aos="flip-left">Let's Explore Together!</a> 
+                <a href="#inquire" class="btn btn-dark">Let's Explore Together!</a> 
               </div>
             </div>
 
-            <div class="flow-right ">
-              <img src="img/alien.png" width="400px"  data-aos="fade-up" data-aos-delay="800">
+            <div class="flow-right">
+              <img src="img/alien.png" width="400px">
             </div>
 
           </div>
@@ -52,7 +98,7 @@
           <div class="row  mt-lg-n6 mt-md-n6 mt-n8">
 
             <!-- WEB DEVELOPMENT -->
-            <div class="col-xl-3 col-md-6 col-12 mb-xl-0 mb-4 shadow-md" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-xl-3 col-md-6 col-12 mb-xl-0 mb-4 shadow-md">
               <div class="card border-1">
                 <div class="position-relative">
                   <a class="d-block bg-dark shadow-md border-radius-xl">
@@ -68,7 +114,7 @@
             </div>
 
             <!-- WEB MARKETING -->
-            <div class="col-xl-3 col-md-6 col-12 mb-xl-0 mb-4 shadow-md" data-aos="fade-up" data-aos-delay="600">
+            <div class="col-xl-3 col-md-6 col-12 mb-xl-0 mb-4 shadow-md">
               <div class="card border-1">
                 <div class="position-relative">
                   <a class="d-block bg-dark shadow-md border-radius-xl">
@@ -84,7 +130,7 @@
             </div>
 
             <!-- WEB MARKETING -->
-            <div class="col-xl-3 col-md-6 col-12 mb-xl-0 mb-4 shadow-md" data-aos="fade-up" data-aos-delay="900">
+            <div class="col-xl-3 col-md-6 col-12 mb-xl-0 mb-4 shadow-md">
               <div class="card border-1">
                 <div class="position-relative">
                   <a class="d-block bg-dark shadow-md border-radius-xl">
@@ -100,7 +146,7 @@
             </div>
 
             <!-- GRAPHICS DESIGN -->
-            <div class="col-xl-3 col-md-6 col-12 mb-xl-0 mb-4 shadow-md" data-aos="fade-up" data-aos-delay="1200">
+            <div class="col-xl-3 col-md-6 col-12 mb-xl-0 mb-4 shadow-md">
               <div class="card border-1">
                 <div class="position-relative">
                   <a class="d-block bg-dark shadow-md border-radius-xl">
@@ -117,7 +163,7 @@
             
           </div> 
       </div>
-      <div class="container text-center my-8"  data-aos="zoom-in-up" data-aos-delay="300">
+      <div class="container text-center my-8">
         <h1 class="text-white f-8x">Ko͞owd will help your business take off!</h1>
       </div>
     </section>
@@ -125,7 +171,7 @@
     <section>
       
 
-      <div class="container" data-aos="zoom-in-up" data-aos-delay="300">
+      <div class="container">
         <div class="row">
           <div class="col-xl-6 col-lg-6 col-md-8 COL-12 mx-auto">
             <div class="card z-index-0 box-glow" id="inquire">
@@ -171,7 +217,21 @@
     <!-- -------- START FOOTER 3 w/ COMPANY DESCRIPTION WITH LINKS & SOCIAL ICONS & COPYRIGHT ------- -->
     <footer class="footer py-5">
       <div class="container">
-        <div class="row"> 
+        <div class="row">
+          <div class="col-lg-8 mb-4 mx-auto text-center hidden">
+            <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
+              About
+            </a> 
+            <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
+              Services
+            </a>
+            <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
+              Clients
+            </a>
+            <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
+              Pricing
+            </a>
+          </div>
           <div class="col-lg-8 mx-auto text-center mb-4 mt-2">
             <a href="javascript:;" target="_blank" class="text-secondary me-xl-4 me-4">
               <a href="https://facebook.com/koowdph" target="_blank"><i class="text-lg fab fa-facebook"></i> Facebook @KoowdPh</a>
@@ -192,11 +252,23 @@
     <!-- -------- END FOOTER 3 w/ COMPANY DESCRIPTION WITH LINKS & SOCIAL ICONS & COPYRIGHT ------- -->
   </main>
   <!--   Core JS Files   -->
-
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="assets/js/core/popper.min.js"></script>
+  <script src="assets/js/core/bootstrap.min.js"></script>
+  <script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
+  <script src="assets/js/plugins/smooth-scrollbar.min.js"></script>
   <script>
-    AOS.init();
+    var win = navigator.platform.indexOf('Win') > -1;
+    if (win && document.querySelector('#sidenav-scrollbar')) {
+      var options = {
+        damping: '0.5'
+      }
+      Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+    }
   </script>
+  <!-- Github buttons -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="assets/js/soft-ui-dashboard.min.js?v=1.0.6"></script>
 
 
   <!-- Place this script at the end of the body tag -->
