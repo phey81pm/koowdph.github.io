@@ -85,4 +85,7 @@
     .flow-left, .flow-right{
         display:none!important;
     }
+    .f-8x{
+        font-size:4em;
+    }
 }
