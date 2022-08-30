@@ -1,8 +1,6 @@
 .page-header{
-    background: linear-gradient(#37c4c4,#018181);
-    background-image: url('../../img/bg.jpg');
-   
-    background-size: 100%;
+    background: linear-gradient(#45f5f5,#00ccf0);
+    background-image: url('../../img/bg.jpg'); 
     background-size: cover; 
     box-shadow: 0 0 5px #1b1b1b;
 }
@@ -32,8 +30,8 @@
     --animate-delay: 25s!important; 
 } 
 
-.bg-dark{
-    background: linear-gradient(#212c2c,#1a2424);
+.bg-dark,.btn-dark{
+    background: linear-gradient(#3b4646,#2a3131);
 }
 
 .f-8x{
@@ -43,11 +41,11 @@
     font-size:10em;
 }
 
-.btn-dark{
+/* .btn-dark{
     background-color:white;
     border: 2px solid #37c4c4!important;
     color:#333333;
-}
+} */
  
 .flow-left{
     position:absolute;

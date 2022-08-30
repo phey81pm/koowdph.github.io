@@ -21601,8 +21601,8 @@ label,
   transition: opacity 0.3 ease;
 }
 
-.bg-gradient-primary {
-  background-image: linear-gradient(310deg, #7928CA 0%, #FF0080 100%);
+.bg-gradient-primary { 
+  background-image: linear-gradient(310deg, #45f5f5 0%, #00ccf0 100%);
 }
 
 .bg-gradient-secondary {
@@ -21630,7 +21630,7 @@ label,
 }
 
 .bg-gradient-dark {
-  background-image: linear-gradient(310deg, #111111 0%, #333333 100%);
+  background-image: linear-gradient(310deg, #222 0%, #444 100%);
 }
 
 .bg-gradient-faded-primary {
